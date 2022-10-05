@@ -1,0 +1,17 @@
+body{
+    background-color:#689497;
+    background-color:#212a2b;
+    color: antiquewhite;
+    text-align: center;
+    width: 100%;
+  }
+  th td{
+    padding:5px;
+    spacing: 5px;
+  }
+  @media (min-width:600px) {
+      body{
+        width:50%
+      }
+  }
+  
