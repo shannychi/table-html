@@ -1,17 +1,26 @@
-body{
-    background-color:#689497;
-    background-color:#212a2b;
-    color: antiquewhite;
+
+  table {
+    width: auto;
+    margin: auto;
     text-align: center;
-    width: 100%;
+    table-layout: fixed;
+    
   }
-  th td{
-    padding:5px;
-    spacing: 5px;
+  table,td,tr {
+    padding: 1px;
+    color: rgb(35, 32, 41);
+    background: #d1d9ec;
+    border: 1px solid rgb(10, 8, 8);
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  @media (min-width:600px) {
-      body{
-        width:50%
-      }
+  th{
+    color: azure;
+    border: 3px solid rgb(26, 22, 22);
+    border-collapse: collapse;
+    background: #2b5252;
   }
-  
+ td:hover{
+    background: #f7f4f3;
+ }
